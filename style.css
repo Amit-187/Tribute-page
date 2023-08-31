@@ -1,0 +1,113 @@
+body {
+    background-color: rgba(0, 0, 0, 0.866);
+}
+
+main {
+    background-image: url(images/kohli.jpg);
+    padding: 35%;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h2 a{
+    text-decoration: none;
+    color: white;
+}
+
+#para{
+    padding-left: 25%;
+    padding-right: 25%;
+    text-align: justify;
+}
+
+.para2{
+    color: white;
+}
+
+nav a {
+    padding:20px;
+    margin: 0px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: large;
+
+}
+
+.head2 {
+    text-align: center;
+    color: white;
+    font-size: 3em;
+}
+
+.foot{
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    background-color: rgba(48, 44, 44, 0.774);
+    margin-bottom: 0px;
+    padding-bottom: 10%;
+}
+
+h2+p{
+    color:white;
+}
+
+p a{
+    color: white;
+    text-decoration: none;
+}
+
+h2 a:hover{
+    color: skyblue;
+}
+
+p a:hover{
+    color:red;
+}
+
+
+@media screen and (max-width:600px){
+    nav a {
+        padding:10px;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .head2 {
+        font-size: 25px;
+    }
+
+    .para2{
+        font-size: 8px;
+    }
+
+    .foot{
+        font-size: 10px;
+    }
+    
+}
+
+@media screen and (max-width:850px) {
+
+    .vid{
+        width: 30%;
+    }
+
+    .img{
+        width:30%;
+    }
+}
+
+@media screen and (max-width:300px){
+    nav a {
+        padding:5px;
+        font-size:5px;
+    }
+    
+}
